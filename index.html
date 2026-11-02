@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Disney+</title>
+<!-- Disney+ si apre a tutto schermo come sito ("sito" nel catalogo): questa pagina si vede solo da una home che non lo sa
+     ancora fare, nel riquadro della Store. La libreria di Home TV, per prima: Indietro torna alla home -->
+<script src="/tv-sito/tv-app.js"></script>
+<style>
+html, body { margin: 0; height: 100%; overflow: hidden; background: #070d24; color: #f2f4fa;
+  font-family: "SamsungOneUI", "SamsungOne", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+main { position: absolute; left: 12vw; right: 12vw; top: 33vh; text-align: center; }
+h1 { margin: 0; font-size: 6.4vh; font-weight: 700; letter-spacing: -.02em; }
+p { margin: 2.6vh 0 0; font-size: 2.8vh; line-height: 1.45; color: rgba(242, 244, 250, .78); }
+#aiuto { position: absolute; left: 0; right: 0; bottom: 6vh; margin: 0; text-align: center; font-size: 2vh; color: rgba(242, 244, 250, .45); }
+</style>
+</head>
+<body>
+  <main>
+    <h1>Disney+</h1>
+    <p>Disney+ si apre a tutto schermo con la versione nuova di Home TV. Esci e riprova fra qualche minuto: Home TV si aggiorna da sola.</p>
+  </main>
+  <p id="aiuto">Indietro per tornare alla home</p>
+  <script>HomeTV.pronto(function () {});</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "formato": 1,
+  "nome": "Disney+",
+  "app": [
+    {
+      "id": "disneyplus",
+      "nome": "Disney+",
+      "descrizione": "Film e serie di Disney, Pixar, Marvel, Star Wars e National Geographic, a tutto schermo come sul TV: si usa con le frecce del telecomando e col telefono. Serve un abbonamento a Disney+.",
+      "icona": "icona.png",
+      "copertina": "copertina.png",
+      "versione": "1.0.0",
+      "novita": "La prima versione: Disney+ a tutto schermo dalla home.",
+      "categoria": "film",
+      "url": "./",
+      "sito": "https://www.disneyplus.com/it-it",
+      "requisiti": [
+        "es6"
+      ],
+      "autore": "Home TV"
+    }
+  ]
+}
